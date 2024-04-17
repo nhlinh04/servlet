@@ -1,0 +1,41 @@
+.carousel-control-prev-icon{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #e8e6e6;
+    opacity: 0.8;
+}
+
+.carousel-control-next-icon{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #e8e6e6;
+    opacity: 0.8;
+
+}
+
+.add-cart-overlay {
+    position: absolute;
+    width: 90%;
+    height: 32px;
+    background-color: #ffffff;
+    bottom: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+}
+
+.card:hover .add-cart-overlay {
+    opacity: 0.95;
+}
+
+.add-cart-btn {
+    height: 32px;
+    text-decoration: none;
+    color: black;
+
+}
+

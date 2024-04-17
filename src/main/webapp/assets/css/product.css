@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.btn-filter{
+    width: 270px;
+    height: 55px;
+    background-color: white;
+    box-shadow: 1px 1px 5px 3px #f3f2f2;
+    margin-right: 15px;
+}
+.btn-filter:hover {
+    background-color: #f8f4f4;
+}
+
+.add-cart-overlay {
+    position: absolute;
+    width: 90%;
+    height: 32px;
+    background-color: #ffffff;
+    bottom: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+}
+
+.card:hover .add-cart-overlay {
+    opacity: 0.95;
+}
+
+.add-cart-btn {
+    height: 32px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.btn-page-number{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #f5f4f4;
+    border: 1px solid #ea7d7d;
+    border-radius: 10px;
+    color: #9f1616;
+    text-align: center;
+    font-size: 17px;
+    font-family: Cambria;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.btn-page{
+    display: block;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    background-color: #f5f4f4;
+    border: 1px solid #ea7d7d;
+    border-radius: 10px;
+    color: #9f1616;
+    text-align: center;
+    font-size: 17px;
+    font-family: Cambria;
+}
+
+
+
